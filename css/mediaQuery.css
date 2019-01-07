@@ -1,0 +1,20 @@
+@media(max-width:768px){
+#firstPage h2{
+font-size:30px;
+}   
+.bottom-text p{
+text-align:center;
+}
+.page{
+flex-direction:column;
+}
+.description{
+flex:1;
+}
+#secondPage{
+flex-direction: column-reverse;
+}
+.page:first-child{
+background-position:center;
+}
+}
